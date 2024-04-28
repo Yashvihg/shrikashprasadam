@@ -1,0 +1,61 @@
+import React from 'react'
+
+import ProductCards from '../../ui/ProductCards';
+
+// Sample product data
+const products = [
+    {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg",
+        brand: "Brand A",
+        productName: "Malas",
+        price: 149,
+        discountedPrice: 199
+    },
+    {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg",
+        brand: "Brand A",
+        productName: "Malas",
+        price: 149,
+        discountedPrice: 199
+    }, {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg",
+        brand: "Brand A",
+        productName: "Malas",
+        price: 149,
+        discountedPrice: 199
+    }, {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg",
+        brand: "Brand A",
+        productName: "Malas",
+        price: 149,
+        discountedPrice: 199
+    }, {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg",
+        brand: "Brand A",
+        productName: "Malas",
+        price: 149,
+        discountedPrice: 199
+    }, {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg",
+        brand: "Brand A",
+        productName: "Malas",
+        price: 149,
+        discountedPrice: 199
+    }, {
+        imageUrl: "https://raw.githubusercontent.com/Arabhya07092007/SKPimages/main/img-Photoroom.jpg",
+        brand: "Brand A",
+        productName: "Malas",
+        price: 149,
+        discountedPrice: 199
+    },
+];
+const Malas = () => {
+    return (
+        <div className="relative">
+
+            <ProductCards products={products} />
+        </div>
+    )
+}
+
+export default Malas
